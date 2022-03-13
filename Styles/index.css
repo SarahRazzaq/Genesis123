@@ -1,0 +1,474 @@
+main{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container{
+  display: grid;
+  max-width: 1110px;
+  max-height: 3840px;
+  grid-template-columns:repeat(10,1fr) ;
+  grid-template-rows:repeat(45,1fr) ;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.logo{
+  margin: 0px;
+  padding: 0px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.nav1 {
+  grid-column:  9 / 11;
+  grid-row: 1 / 2; 
+}
+li {
+  list-style-type: none;
+  width: 65px;
+}
+a{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: -0.346154px;
+color: #111111;
+text-decoration: none;
+}
+
+.title-item1 {
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+}
+h3 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.423077px;
+  color: #4A4FF2;
+}
+.title-item2 {
+  grid-column: 1 / 8;
+  grid-row: 4 / 5;
+}
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #111111;
+}
+.blue-text {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #4A4FF2;
+}
+.title-item3 {
+  grid-column: 8 / 10;
+  grid-row: 4 / 5;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+h4 {
+  font-family: "Mulish", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+h5 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+/*.grid-title-text {
+  max-width: 1110px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}*/
+.grid-container-images {
+  grid-column: 1 / 11;
+  grid-row: 5 / 33;
+  max-width: 1110px;
+  max-height: 1960px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+  row-gap: 20px;
+   -moz-column-gap: 20px;
+         column-gap: 20px;
+}
+  
+  .item1 {
+    grid-column: 1/4;
+    grid-row: 1/8;
+  }
+  
+  .item2 {
+    grid-column: 1/4;
+    grid-row: 8/16;
+  }
+  
+  .item3 {
+    grid-column: 1/4;
+    grid-row: 16/24;
+  }
+  
+  .item4 {
+    grid-column: 1/4;
+    grid-row: 24/33;
+  }
+  
+  .item5 {
+    grid-column: 4/7;
+    grid-row: 1/7;
+  }
+  
+  .item6 {
+    grid-column: 4/7;
+    grid-row: 7/14;
+  }
+  
+  .item7 {
+    grid-column: 4/7;
+    grid-row: 14/23;
+  }
+  
+  .item8 {
+    grid-column: 4/7;
+    grid-row: 23/33;
+  }
+  
+  .item9 {
+    grid-column: 7/10;
+    grid-row: 1/11;
+  }
+  
+  .item10 {
+    grid-column: 7/10;
+    grid-row: 11/18;
+  }
+  
+  .item11 {
+    grid-column: 7/10;
+    grid-row: 18/27;
+  }
+  
+  .item12 {
+    grid-column: 7/10;
+    grid-row: 27/33;
+  }
+  
+  hr {
+    max-width: 1110px;
+  }
+  .grid-main-text {
+    grid-column: 1 / 11;
+    grid-row: 34 / 36;
+    width: 1110px;
+    height: auto;
+    left: 126px;
+    top: 2626px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  
+  .text-item1 {
+    grid-column: 1/9;
+    grid-row: 2/5;
+  }
+  
+  .grid-text1 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    color: #111111;
+  }
+  
+  .text-item2 {
+    grid-column: 11/14;
+    grid-row: 2/5;
+  }
+  
+  .text-item3 {
+    float: right;
+    grid-column: 16/19;
+    grid-row: 2/5;
+  }
+  
+  .grid-text {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+  
+  .divider {
+    Width: 1110px;
+    Height: 2px;
+    background: #D8D8D8;
+  }
+  .line1{
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    background: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    grid-column: 1/ 11;
+    grid-row: 36 / 37;
+  }
+  .main-awards-grid-cont {
+    grid-column: 1 / 11;
+    grid-row: 37 / 42;
+    width: 1110px;
+    height: 823px;
+    left: 125px;
+    top: 2833px;
+    border-bottom-style: inherit;
+    border: 2px;
+    border-color: #D8D8D8;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+  
+  .aw-item1 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #111111;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  .aw-item2 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    grid-column: 5/7;
+    grid-row: 1/2;
+  }
+  
+  .aw-item3 {
+    grid-column: 7/9;
+    grid-row: 1/2;
+  }
+  
+  .aw-item4 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #111111;
+    grid-column: 9/10;
+    grid-row: 1/2;
+  }
+  
+  .aw-item5 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    grid-column: 5/7;
+    grid-row: 3/4;
+  }
+  
+  .aw-item6 {
+    grid-column: 7/9;
+    grid-row: 3/5;
+  }
+  
+  .aw-item7 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #111111;
+    grid-column: 9/10;
+    grid-row: 3/4;
+  }
+  
+  .aw-item8 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #111111;
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  
+  .aw-item9 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    grid-column: 5/7;
+    grid-row: 5/6;
+  }
+  
+  .aw-item10 {
+    grid-column: 7/9;
+    grid-row: 5/6;
+  }
+  
+  .aw-item11 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #111111;
+    grid-column: 9/10;
+    grid-row: 5/6;
+  }
+  
+  .aw-item12 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    grid-column: 5/7;
+    grid-row: 6/7;
+  }
+  
+  .aw-item13 {
+    grid-column: 7/9;
+    grid-row: 6/7;
+  }
+  
+  .aw-item14 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #111111;
+    grid-column: 9/10;
+    grid-row: 6/7;
+  }
+  
+  hr {
+    height: 2px;
+    background: #D8D8D8;
+  }
+  
+  .aw-title {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+  }
+  
+  .aw-text {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+/*FOOTER*/
+.line3{
+  width: 100%;
+  height: 2px;
+  background: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  grid-column: 1/ 11;
+  grid-row: 44 / 45;
+}
+.logo2{
+  margin: 0px;
+  padding: 0px;
+  grid-column:  1 / 2;
+  grid-row: 45 / 46;
+}
+.nav2 {
+  width: 150px;
+  height: auto; 
+  grid-column:  8 / 9;
+  grid-row: 45 / 46; 
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+  padding: 0;
+  display: flex;
+}
+li {
+  float: left;
+  width: 65px;
+}
+.social{
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  grid-column: 10 / 11;
+  grid-row: 45 / 46;
+}
