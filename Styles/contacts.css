@@ -9,7 +9,7 @@ main{
 .main-container{
     display: grid;
     max-width: 1110px;
-    max-height: 1700px;
+    max-height: 1400px;
     grid-template-columns:repeat(10,1fr) ;
     grid-template-rows:repeat(15,1fr) ;
     column-gap: 15px;
@@ -22,7 +22,7 @@ main{
     grid-row: 1 / 2;
 }
 .nav1 {
-    grid-column:  10 / 11;
+    grid-column:  9 / 11;
     grid-row: 1 / 2; 
 }
 li {
@@ -49,7 +49,7 @@ text-decoration: none;
     grid-row: 3 / 4;
 }
 .contact-title4{
-    grid-column: 1 / 11;
+    grid-column: 1 / 10;
     grid-row: 5 / 12;
 }
 /*FOOTER*/
